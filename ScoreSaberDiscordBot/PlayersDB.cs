@@ -15,6 +15,29 @@ namespace ScoreSaberDiscordBot
             Console.WriteLine($"Player {disID} was added with scoresaber: {scoID}");
             GenerateDB();
         }
+
+        public static bool RemovePlayer(string disID)
+        {
+            Player player = new Player
+            {
+                discordID = disID,
+                ssID = GetPlayer(disID)
+            };
+
+            foreach (var _player in players)
+            {
+                if (_player.discordID == player.discordID)
+                {
+                    players.Remove(_player);
+                    Console.WriteLine($"Player {disID} was removed");
+                    GenerateDB();
+                    return true;
+                }
+            }
+            return false;
+
+        }
+        
         
         public static void GenerateDB()
         {

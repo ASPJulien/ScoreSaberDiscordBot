@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreSaberDiscordBot", "ScoreSaberDiscordBot\ScoreSaberDiscordBot.csproj", "{36CB3B16-84C1-4C61-8DD5-5E24137C1346}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreSaberDiscordBot", "ScoreSaberDiscordBot\ScoreSaberDiscordBot.csproj", "{F7609B7F-2BC2-4DD0-99F3-72738A78676C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36CB3B16-84C1-4C61-8DD5-5E24137C1346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36CB3B16-84C1-4C61-8DD5-5E24137C1346}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36CB3B16-84C1-4C61-8DD5-5E24137C1346}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36CB3B16-84C1-4C61-8DD5-5E24137C1346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7609B7F-2BC2-4DD0-99F3-72738A78676C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7609B7F-2BC2-4DD0-99F3-72738A78676C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7609B7F-2BC2-4DD0-99F3-72738A78676C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7609B7F-2BC2-4DD0-99F3-72738A78676C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

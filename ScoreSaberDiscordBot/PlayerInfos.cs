@@ -22,6 +22,15 @@ namespace ScoreSaberDiscordBot
             Infos = JsonConvert.DeserializeObject<playerInfos>(json);
             return Infos;
         }
+
+        public static bool HasASSPage(string id)
+        {
+            WebClient webClient = new();
+            json = webClient.DownloadString($"https://new.scoresaber.com/api/player/{id}/full");
+            if (json.Length > 1) return true;
+            else return false;
+        }
+        
     }
 
     public class playerInfos

@@ -59,7 +59,7 @@ namespace ScoreSaberDiscordBot
       var result = await commands.ExecuteAsync(context, argPos, null);
       
       //error
-      if (!result.IsSuccess) await context.Channel.SendMessageAsync("Désolé, une erreur est survenue :Sadge~2: ");
+      if (!result.IsSuccess) Console.WriteLine(result.ErrorReason);
     }
 
     private Task Log(LogMessage arg)
